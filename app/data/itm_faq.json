@@ -1,0 +1,751 @@
+{
+  "intents": [
+    {
+      "name": "financiera_dónde_puedo_comprar_el_pin_y_cuáles_son",
+      "examples": [
+        "¿Dónde puedo comprar el PIN y Cuáles son las fechas en las que se puede comprar?"
+      ],
+      "responses": [
+        "El PIN sólo aplica para Posgrados, pero solo en las fechas de inscripción establecidas en el calendario académico aprobado para el respectivo periodo académico y publicadas en la página web de la institución. Los estudiantes de Pregrado NO necesitan comprar PIN"
+      ]
+    },
+    {
+      "name": "financiera_cuánto_cuesta_la_matrícula",
+      "examples": [
+        "¿Cuánto cuesta la matrícula?"
+      ],
+      "responses": [
+        "El valor de la matricula se calcula de acuerdo al tipo de formación: Si es un programa académico de Pregrado (Tecnología o ingeniería), el costo depende del estrato socioeconómico del lugar de residencia habitual y del carácter del colegio (público o privado) de donde el estudiante terminó el grado 11. La tabla varía entre 0,5 hasta 3 Salarios Mínimos Mensuales Legales Vigentes (SMMLV). Si es un programa de Posgrado, la tabla varía entre 4 a 10 SMMLV. Si es una Especialización 4 SMMLV. Si es Maestría 6 SMMLV. Si es Doctorado 10 SMMLV."
+      ]
+    },
+    {
+      "name": "financiera_cómo_y_dónde_puedo_pagar_la_matrícula",
+      "examples": [
+        "¿Cómo y dónde puedo pagar la matrícula?"
+      ],
+      "responses": [
+        "La matrícula se puede pagar en efectivo o cheque a Nombre del Instituto Tecnológico Metropolitano o ITM. Se puede pagar en: Banco Popular, AV Villas, Occidente, ITAU, BBVA. Corresponsales NO bancarios (Pomona, Carulla, Almacenes Éxito, Surtimax, Baloto). Pagos en Línea PSE, desde el enlace: https://www.pagosvirtualesavvillas.com.co/personal/pagos/169 ."
+      ]
+    },
+    {
+      "name": "financiera_se_puede_realizar_pagos_con_tarjeta_de_c",
+      "examples": [
+        "¿Se puede realizar pagos con tarjeta de crédito?"
+      ],
+      "responses": [
+        "No se pueden realizar pagos con tarjetas de crédito; SOLO se reciben pagos con tarjetas débito de cualquier entidad bancaria, a través del pago por PSE."
+      ]
+    },
+    {
+      "name": "financiera_la_matrícula_se_puede_pagar_por_cuotas",
+      "examples": [
+        "¿La matrícula se puede pagar por cuotas?"
+      ],
+      "responses": [
+        "No. La matrícula debe ser pagada en su totalidad dentro de las fechas establecidas en el calendario académico y en los lugares autorizados para recibir el pago."
+      ]
+    },
+    {
+      "name": "financiera_cómo_y_dónde_pago_la_matrícula_con_chequ",
+      "examples": [
+        "¿Cómo y dónde pago la matrícula con cheque de cesantías?"
+      ],
+      "responses": [
+        "Si el cheque es de mayor valor a la liquidación de matrícula SOLO se recibe pagar en las taquillas de tesorería de la institución – campus Robledo; los bancos no reciben estos cheques. Si el valor del cheque es igual o menor al valor de la liquidación de matrícula se puede realizar el pago en cualquier sucursal de: Bancos Popular, AV Villas, Occidente, ITAU, BBVA y en los Almacenes Éxito, Carulla, Surtimax y Pomona."
+      ]
+    },
+    {
+      "name": "financiera_qué_debo_hacer_si_la_empresa_donde_traba",
+      "examples": [
+        "¿Qué debo hacer si la empresa donde trabajo paga mi matrícula?"
+      ],
+      "responses": [
+        "Si Una empresa le va a pagar la matricula a un estudiante, ésta debe solicitar la elaboración de factura de venta de servicios educativos. Para este trámite se requiere: Oficio en hoja con membrete de la empresa solicitando la elaboración de la factura, especificar nombre del estudiante y el valor o porcentaje de apoyo económico por parte de la empresa; y adjuntar el RUT de la empresa y la liquidación de matrícula del estudiante. Este trámite se realiza a través de la taquilla virtual de tesorería, desde el perfil de estudiante."
+      ]
+    },
+    {
+      "name": "financiera_si_realicé_mi_pago_de_matrícula_porque_n",
+      "examples": [
+        "¿Si realicé mi pago de matrícula, Porque no se refleja en el sistema?"
+      ],
+      "responses": [
+        "El pago no se refleja inmediatamente, porque e l sistema se actualiza cada 24 horas hábiles después de realizar el pago, teniendo en cuenta que los horarios extendidos de los bancos y pagos electrónicos (desde las 4:00 pm en adelante, fines de semana y festivos) no cuentan cómo horas hábiles"
+      ]
+    },
+    {
+      "name": "financiera_cuánto_vale_un_crédito_adicional_y_cuál",
+      "examples": [
+        "¿Cuánto vale un crédito adicional y cuál es el proceso para solicitarlo?"
+      ],
+      "responses": [
+        "los créditos adicionales se calculan con base en el valor de la liquidación de cada estudiante y con base en el número de créditos adicionales matriculados. El proceso se realiza por correo enviando todos los datos personales a la jefatura del programa para revisar la disponibilidad de la asignatura, según el requerimiento."
+      ]
+    },
+    {
+      "name": "financiera_cuál_es_el_proceso_para_realizar_el_pago",
+      "examples": [
+        "¿Cuál es el proceso para realizar el pago por carga académica adicional?"
+      ],
+      "responses": [
+        "Para realizar el pago por carga académica adicional, debe dirigirse a la oficina del Jefe del programa, él es el encargado de liquidar y matricular la carga académica adicional. Estos pagos se hacen con el recibo de pago impreso en los Bancos Popular, AV Villas, Occidente, ITAU y BBVA y a través del botón PSE, en el enlace: https://www.pagosvirtualesavvillas.com.co/personal/pagos/6346"
+      ]
+    },
+    {
+      "name": "financiera_cuáles_son_los_requisitos_y_el_proceso_p",
+      "examples": [
+        "¿Cuáles son los requisitos y el proceso para solicitar una reliquidación por no\n                                    matricular todos los créditos (descarga académica)?"
+      ],
+      "responses": [
+        "Para solicitar la reliquidación por descarga académica, el estudiante debe cumplir con los siguientes requisitos, 1) validar que los derechos de matrícula sean superiores a 0,5 Salarios Mínimos Mensuales Legales Vigentes -SMMLV y 2) tener una intensidad horaria de 7 horas semanales o menos, 3) que le falte más de una asignatura para terminar el plan de estudios. Este trámite se realiza a través de la taquilla virtual de tesorería, desde el perfil de estudiante."
+      ]
+    },
+    {
+      "name": "financiera_se_debe_pagar_el_valor_completo_de_un_pe",
+      "examples": [
+        "¿Se debe pagar el valor completo de un periodo para matricular el trabajo de grado\n                                    (egresado no graduado?"
+      ],
+      "responses": [
+        "No, al matricularse como egresado no graduado le liquida un 20% sobre los derechos de matrícula más los servicios complementarios"
+      ]
+    },
+    {
+      "name": "financiera_cuánto_dinero_me_reintegran_por_cancelac",
+      "examples": [
+        "¿Cuánto dinero me reintegran por cancelación de matrícula?"
+      ],
+      "responses": [
+        "Si la cancelación se realiza antes de iniciar el semestre y es estudiante de pregrado, se genera una devolución del 80% del total pagado. Si el estudiante es de posgrado se devuelve el 70% del total pagado. Este trámite se realiza desde el perfil de estudiante, opción Solicitud de devolución de dinero electrónico. Si la cancelación es posterior al inicio del semestre no aplica ningún concepto de devolución. Acuerdo 04 del 04 de abril de 2008 en el Artículo 62° del Inciso segundo, (Reglamento Estudiantil)"
+      ]
+    },
+    {
+      "name": "financiera_dónde_pago_y_cuánto_cuestan_las_habilita",
+      "examples": [
+        "¿Dónde pago y cuánto cuestan las habilitaciones?"
+      ],
+      "responses": [
+        "Las habilitaciones se pueden pagar en las máquinas auto pago de los campus Robledo y Fraternidad; Por PSE, en el enlace del sitio web de la institución: https://www.pagosvirtualesavvillas.com.co/personal/pagos/6346 El valor para pagar está direccionado en la resolución de derechos pecuniarios que están en el sitio www.itm.edu.co , en la opción de Servicios al ciudadano o en el link: https://www.itm.edu.co/derechos-pecuniarios/"
+      ]
+    },
+    {
+      "name": "financiera_cómo_descargo_y_donde_pago_la_factura_de",
+      "examples": [
+        "¿Cómo descargo y donde pago la factura de los cursos vacacionales?"
+      ],
+      "responses": [
+        "Para pagar los cursos vacacionales, se debe realizar el proceso de inscripción del curso vacacional, luego imprimir la factura en impresora láser y proceder al pago en las sucursales de: Banco s Popular, AV Villas, Occidente, ITAU, BBVA y por PSE en el link: https://www.pagosvirtualesavvillas.com.co/personal/pagos/6346"
+      ]
+    },
+    {
+      "name": "financiera_cómo_pago_el_derecho_de_grado",
+      "examples": [
+        "¿Cómo pago el derecho de grado?"
+      ],
+      "responses": [
+        "El derecho de grado se puede pagar en los bancos autorizados en la liquidación, o través del PSE del sitio web de la institución: https://www.pagosvirtualesavvillas.com.co/personal/pagos/6346 , con la liquidación que le autoriza la oficina de Admisiones y Programación académica luego de verificar que usted haya diligenciado el formulario, adjuntado los documentos y cumple con todas las condiciones para el grado y que se ve reflejada en su link de estudiante"
+      ]
+    },
+    {
+      "name": "financiera_cuáles_son_los_precios_de_los_servicios",
+      "examples": [
+        "¿Cuáles son los precios de los servicios educativos (habilitaciones, certificados,\n                                    zona húmeda, parqueadero, gimnasio, entre otros) y donde se pueden pagar?"
+      ],
+      "responses": [
+        "El valor de los servicios educativos se encuentran la Resolución de derechos pecuniarios. Estos valores pueden ser consultados en el enlace: https://www.itm.edu.co/derechos-pecuniarios/ Y se pueden pagar: A través del enlace https://www.pagosvirtualesavvillas.com.co/personal/pagos/6346 , siguiendo las indicaciones del instructivo OTROS SERVICIOS SIN RECIBO."
+      ]
+    },
+    {
+      "name": "financiera_si_tengo_inconveniente_con_el_punto_de_p",
+      "examples": [
+        "¿Si tengo inconveniente con el punto de pago (Máquinas de auto pago), a donde acudo?"
+      ],
+      "responses": [
+        "Si tiene algún inconveniente con el punto de pago (Máquinas de auto pago), puede acudir a las taquillas de Tesorería Campus Robledo en el horario de 7:30 am – 12:30 m y de 1:30 pm a 5:30 pm de lunes a jueves y viernes desde las 7:30 am hasta las 4:30 pm. Si el inconveniente se presenta en los campus diferentes a Robledo o fuera del horario de tesorería, se debe informar al personal de vigilancia de la institución."
+      ]
+    },
+    {
+      "name": "financiera_cuáles_son_las_formas_de_pago_de_los_cur",
+      "examples": [
+        "¿Cuáles son las formas de pago de los cursos de extensión?"
+      ],
+      "responses": [
+        "Los pagos de los cursos de extensión, pueden pagarse en Efectivo, cheque, o pago mixto; en las sucursales de los Bancos: Popular, AV Villas, Occidente, ITAU, BBVA; y a través de pagos en Línea PSE, desde el link: https://www.pagosvirtualesavvillas.com.co/personal/pagos/2637"
+      ]
+    },
+    {
+      "name": "financiera_dónde_encuentro_la_ruta_para_hacer_los_p",
+      "examples": [
+        "¿Dónde encuentro la ruta para hacer los pagos virtuales?"
+      ],
+      "responses": [
+        "La ruta para los pagos virtuales, la encuentran Ingresando a la página www.itm.edu.co en el menú Pagos en línea: https://www.itm.edu.co/pagos-en-linea/"
+      ]
+    },
+    {
+      "name": "financiera_cuál_es_el_horario_atención_en_las_taqui",
+      "examples": [
+        "¿Cuál es el Horario atención en las taquillas de Tesorería?"
+      ],
+      "responses": [
+        "El horario es de lunes a jueves de 7:30 am – 12:30 m y de 1:30 pm a 5:30 pm. Los viernes hasta las 4:30 pm. Fines de semana y festivos no hay atención al público."
+      ]
+    },
+    {
+      "name": "financiera_cómo_se_realiza_la_solicitud_de_devoluci",
+      "examples": [
+        "¿Cómo se realiza la solicitud de devolución de dinero y en cuanto tiempo se realiza\n                                    la devolución?"
+      ],
+      "responses": [
+        "La solicitud de devolución de dinero se realiza desde la página web de la institución: www.itm.edu.co , desde el perfil de estudiante, por la opción solicitud de devolución de dinero electrónico, diligenciando el formulario adjunto. El tiempo de respuesta de las solitudes de devolución de dinero depende del tipo de solicitud. Este cronograma se puede consultar en el mismo sitio donde se realiza la solicitud."
+      ]
+    },
+    {
+      "name": "admisiones_cuál_es_el_procedimiento_para_solicitar",
+      "examples": [
+        "¿Cuál es el procedimiento para solicitar un certificado de estudios o calificaciones\n                                    en el ITM?"
+      ],
+      "responses": [
+        "El procedimiento para solicitar un certificado de estudios o calificaciones en el ITM se encuentra detallado en el siguiente enlace: https://www.itm.edu.co/admisiones/certificados/"
+      ]
+    },
+    {
+      "name": "admisiones_a_que_pruebas_debe_someterse_un_aspirant",
+      "examples": [
+        "A que pruebas debe someterse un aspirante a los programas académicos de pregrado\n                                    adscritos al Departamento de Artes y Humanidades."
+      ],
+      "responses": [
+        "Para el caso específico de los programas de la Facultad de Artes y Humanidades, se realiza además de la prueba General, una prueba Específica de acuerdo a cada programa"
+      ]
+    },
+    {
+      "name": "admisiones_dónde_se_puede_acceder_para_consultar_el",
+      "examples": [
+        "¿Dónde se puede acceder para consultar el calendario académico de un período?"
+      ],
+      "responses": [
+        "Ingresa a la página itm.edu.co Admisiones Calendario Académico"
+      ]
+    },
+    {
+      "name": "admisiones_información_de_inscripción_extranjeros",
+      "examples": [
+        "INFORMACIÓN DE INSCRIPCIÓN EXTRANJEROS"
+      ],
+      "responses": [
+        "De acuerdo a su solicitud le informo los requisitos para los estudiantes extranjeros y que éstos cumplan con la normativa exigida por el ICFES , Ministerio de Educación Nacional (MEN) y por Migración Colombia , son los siguientes: Puedes adelantar el trámite de los siguientes documentos: Cédula de Extranjería para extranjeros residentes en Colombia o Pasaporte (en su caso sería el Pasaporte y el PEP actualizados) Haber terminado y aprobado el bachillerato en una institución legalmente reconocida por el Ministerio de Educación Nacional. Acta de Grado o Diploma de Bachiller Apostillados Certificado del carácter del Colegio. (Público, Privado o por Cobertura) (En su caso, dado que usted se graduó de un colegio en el exterior, lo debe solicitar directamente en la institución educativa). Este documento hace parte del proceso que se realiza para la liquidación de matrícula. Convalidar el título de bachiller ante el MEN de Colombia (este trámite deberá hacerlo paralelamente con el proceso de inscripción, si no cuenta con dicho documento) Haber presentado las pruebas de estado (ICFES o su equivalente) de acuerdo con las Resoluciones 120 y 252 de 2018 emitidas por el Ministerio de Educación Nacional, según la resolución 120 del 30 de enero de 2018. (Si NO presentó ninguna prueba en el país de origen, deberá hacerlo acá en Colombia, comunicándose con el ICFES. Línea Nacional Gratuita 018000519535.) Observación: En el caso de los venezolanos es el PEP vigente y el pasaporte."
+      ]
+    },
+    {
+      "name": "admisiones_cómo_puedo_homologar_las_asignaturas_que",
+      "examples": [
+        "¿Cómo puedo homologar las asignaturas que cursé en otra universidad?"
+      ],
+      "responses": [
+        "Para el proceso de homologación de asignaturas aprobadas en otra Institución, debe realizar la solicitud ante el Consejo de Facultad, indicando las asignaturas que desea se reconozcan, para el estudio deberá adjuntar la siguiente documentación: Calificaciones en papel membrete, donde se relacione la nota y el número de créditos de la asignatura cursada. Copia de los contenidos temáticos de las asignaturas que desea homologar."
+      ]
+    },
+    {
+      "name": "admisiones_cómo_es_el_proceso_para_sacar_el_carnet",
+      "examples": [
+        "¿Cómo es el proceso para sacar el carnet de la institución?"
+      ],
+      "responses": [
+        "Llena por favor la información requerida para la realización del carnet institucional. Es importante que la foto sea en formato JPG o JPEG y los archivos a adjuntar en formato PDF https://procesocarnetizacion.itm.edu.co/"
+      ]
+    },
+    {
+      "name": "academia_con_cuántos_campus_cuenta_el_itm_y_cuále",
+      "examples": [
+        "¿Con cuántos campus cuenta el ITM, y cuáles son sus nombres, direcciones y\n                                    conmutadores telefónicos de los mismos?"
+      ],
+      "responses": [
+        "El ITM cuenta con 5 sedes: Campus Robledo: Calle 73 No. 76A – 354, Vía al Volador Tel: 440 51 00 Campus Fraternidad: Calle 54A No. 30 – 01, Barrio Boston Tel: 460 07 27 Campus Prado: Carrera 51 No. 58 – 69, Barrio Prado Tel: 512 47 38 Campus la Floresta: Calle 47ª N°85-20 Barrio La Floresta Tel: 440 51 74 Campus Castilla: Carrera 65 No. 98A – 75 Tel: 440 52 00"
+      ]
+    },
+    {
+      "name": "academia_dónde_se_puede_obtener_información_detal",
+      "examples": [
+        "¿Dónde se puede obtener información detallada de cada una de las facultades?"
+      ],
+      "responses": [
+        "FACULTAD DE ARTES Y HUMANIDADES: https://www.itm.edu.co/facultad-artes-humanidades/ FACULTAD DE CIENCIAS ECONÓMICAS Y ADMINISTRATIVAS : https://www.itm.edu.co/facultad-ciencias-economicas-administrativas/ FACULTAD DE CIENCIAS EXACTAS Y APLICADAS https://www.itm.edu.co/facultad-ciencias-exactas-aplicadas/ FACULTAD DE INGENIERÍAS https://www.itm.edu.co/facultad-ingenierias/"
+      ]
+    },
+    {
+      "name": "academia_cuáles_son_los_programas_de_pregrado_y_p",
+      "examples": [
+        "¿Cuáles son los programas de pregrado y posgrado adscritos a cada una de las\n                                    facultades?"
+      ],
+      "responses": [
+        "Los programas adscritos a cada facultad se pueden consultar en los siguientes links: FACULTAD DE ARTES Y HUMANIDADES: https://www.itm.edu.co/facultad-artes-humanidades/programas/ FACULTAD DE CIENCIAS ECONÓMICAS Y ADMINISTRATIVAS: https://www.itm.edu.co/facultad-ciencias-economicas-administrativas/programas/ FACULTAD DE CIENCIAS EXACTAS Y APLICADAS https://www.itm.edu.co/facultad-ciencias-exactas-aplicadas/programas/ FACULTAD DE INGENIERÍAS https://www.itm.edu.co/facultad-ingenierias/programas/"
+      ]
+    },
+    {
+      "name": "academia_dónde_se_puede_encontrar_el_directorio_d",
+      "examples": [
+        "¿Dónde se puede encontrar el Directorio de los servidores del ITM?"
+      ],
+      "responses": [
+        "El Directorio se puede obtener en el siguiente enlace: https://www.itm.edu.co/directorio-de-servidores/"
+      ]
+    },
+    {
+      "name": "academia_que_es_el_programa_de_sillas_vacías_quie",
+      "examples": [
+        "Que es el programa de SILLAS VACÍAS. Quienes pueden acceder a él. ¿Dónde está\n                                    reglamentado y con qué área se realiza el trámite de matrícula de esta figura?"
+      ],
+      "responses": [
+        "Sillas vacías se concibe como una estrategia de extensión académica y proyección social (programa de educación no formal), con el objetivo de contribuir a la formación del público externo a un programa de educación superior, mediante la oferta de los cupos disponible en las asignaturas adscritas al programa. Pueden acceder Bachilleres y estudiantes del grado 11, los cuales pueden seleccionar asignaturas del primer nivel de los programas académicos La reglamentación puede ser consultada a través de la página web del ITM, en la siguiente ruta: Página institucional www.itm.edu.co En la parte superior se selecciona la opción Nosotros Posteriormente se selecciona la opción Secretaria General Luego se selecciona en la mitad de la pantalla nuevamente la opción CONSEJOS Se selecciona la opción CONSEJO ACADÉMICO_- Resoluciones Se selecciona el año, en este caso 2016 Por último, se descarga el pdf con la resolución N°118 de 2016, la cual contiene la normativa de SILLAS VACÍAS."
+      ]
+    },
+    {
+      "name": "academia_para_qué_le_sirve_a_una_persona_que_quie",
+      "examples": [
+        "¿Para qué le sirve a una persona que quiera ingresar a un programa académico de\n                                    pregrado del ITM, haber pasado por el programa de SILLAS VACÍAS?"
+      ],
+      "responses": [
+        "Le permite a un aspirante de los programas del ITM, avanzar en su plan de estudio cuando no se pudo presentarse en las fechas de admisión, no paso las pruebas de admisión o no pudo reunir los documentos requeridos para la matrícula. Para que esta modalidad le beneficie, el interesado debe presentarse en el periodo académico siguiente y pasar las pruebas de admisión."
+      ]
+    },
+    {
+      "name": "academia_en_dónde_puede_consultarse_el_reglamento",
+      "examples": [
+        "¿En dónde puede consultarse el reglamento estudiantil?"
+      ],
+      "responses": [
+        "Se puede encontrar por medio del siguiente link : https://www.itm.edu.co/aspirantes-estudiantes/reglamento-estudiantil/"
+      ]
+    },
+    {
+      "name": "academia_a_qué_se_denomina_dcri_en_el_itm",
+      "examples": [
+        "¿A qué se denomina DCRI en el ITM?"
+      ],
+      "responses": [
+        "Dirección de Cooperación y Relaciones Internacionales – DCRI"
+      ]
+    },
+    {
+      "name": "academia_qué_se_hace_en_la_dcri",
+      "examples": [
+        "¿Qué se hace en la DCRI?"
+      ],
+      "responses": [
+        "En la Dirección de Cooperación y Relaciones Internacionales -DCRI- orientamos todas nuestras acciones para que el ITM trascienda fronteras desde sus fortalezas en docencia, investigación y extensión, permitiendo así el relacionamiento, proyección, posicionamiento y construcción de alianzas de impacto para la institución en el ámbito local, nacional e internacional. https://www.itm.edu.co/internacionalizacion"
+      ]
+    },
+    {
+      "name": "academia_qué_son_los_comités_curriculares_y_cuál",
+      "examples": [
+        "¿Qué son los comités curriculares y cuál es su conformación? (estatuto general)"
+      ],
+      "responses": [
+        "Los comités curriculares son un órgano asesor del Consejo de Facultad. Está conformado por. El Jefe del programa o de área del respectivo programa, quien lo presidirá. Un representante de los docentes escalafonados pertenecientes al programa, elegido por el Consejo de Facultad al cual se encuentra adscrito el programa académico, de terna conformada por profesores escalafonados del programa, que será presentado por el representante profesoral del correspondiente consejo de facultad, para el periodo de un (1) año. (modificado en el acuerdo No 13 del 20 de abril de 2012) Un representante de los estudiantes del respectivo programa, elegido por el Consejo de Facultad al cual se encuentra adscrito el programa académico, de terna conformada por estudiantes del referido programa que será presentada, por el representante estudiantil del correspondiente Consejo de Facultad, para el periodo de un (1) año. La Jefe del Departamento Académico de cada Facultad."
+      ]
+    },
+    {
+      "name": "academia_qué_es_la_cátedra_abierta_de_ciudadanía",
+      "examples": [
+        "¿Qué es la Cátedra Abierta de Ciudadanía y Paz, y la Cátedra de Deporte y Cultura?\n                                    ¿Cómo cumple un estudiante con este requisito y cuáles programas lo exigen?"
+      ],
+      "responses": [
+        "Para cumplir con estas cátedras se requiere: Cátedra de ciudadanía y Paz: asistir a cuatro (4) sesiones de cátedra de un tema específico de ciudad y/o paz, impartida por un experto en el área, con una duración de dos horas y ofertadas por la Vicerrectoría de Docencia, a través del correo Institucional, estas las debe realizar el estudiante durante su vida académica y un curso virtual, a través de la Cvirtual, el cual se realiza una vez culmine las cuatro cátedras. Nota: Si el estudiante ya curso la asignatura Fundamento social del Derecho esta se le homologará, a solicitud del estudiante. El certificado lo emite Vicerrectoría de Docencia Cátedra de deporte y cultura: el estudiante deberá cumplir con 16 horas en actividades de bienestar tales como: deporte dirigido y/o actividades culturales (pintura, música, canto, jardinería, etc.) El estudiante solicita el registro de la asistencia en la respectiva dependencia. El certificado lo emite Bienestar Universitario con el registro de la asistencia el cual debe ser aportado por el estudiante. Nota: Si el estudiante ya curso la asignatura Deporte Formativo en otro programa esta se le homologará, a solicitud del estudiante. Una vez el estudiante obtenga los respectivos certificados deberá ser enviados a los respectivos jefes de programa para su registro en el SIA. El estudiante deberá realizar estas dos cátedras antes de culminar su plan de estudio. Toda la información relacionada con la cátedra Abierta de Ciudadanía y Paz, y la Cátedra de Deporte y Cultura, se encuentra en el siguiente enlace: https://www.itm.edu.co/estudiantes/catedras-abiertas/"
+      ]
+    },
+    {
+      "name": "academia_con_que_área_se_tramita_una_suficiencia",
+      "examples": [
+        "¿Con que área se tramita una suficiencia de inglés en le ITM?"
+      ],
+      "responses": [
+        "Dependencia: Centro de Idiomas Funcionario: Diego León Luna Echavarría Correo: diegoluna@itm.edu.co El procedimiento para solicitar una suficiencia de Inglés se encuentra en la Resolución 105 del 30 de Octubre de 2020: El procedimiento para solicitar examen de suficiencia y prueba de acreditación de competencias pregrado la puedes encontrar en el tutorial de YouTube en el siguiente enlace: ( https://www.youtube.com/watch?v=gNkGn14IOks )"
+      ]
+    },
+    {
+      "name": "academia_qué_diferencia_hay_entre_una_suficiencia",
+      "examples": [
+        "¿Qué diferencia hay entre una suficiencia de inglés y una prueba de competencia\n                                    lingüística? ¿Cuál es la normativa vigente sobre este tema?"
+      ],
+      "responses": [
+        "El examen de suficiencia es un examen diseñado por el Centro de Idiomas de la Facultad de Artes y Humanidades del ITM, que tiene como fin evaluar si el estudiante cumple con el requisito en competencias integradas en lengua extranjera- inglés- por asignatura. La suficiencia se realiza cuando el estudiante desea presentar el examen por solo una asignatura, a diferencia del examen de Competencia Lingüística el cual se presenta cuando se desea realizar la prueba por más de una asignatura o nivel de inglés. Las fechas son establecidas por el Centro de Idiomas semestralmente PROCEDIMIENTO. Logística y reglamentación del examen de suficiencia Por razones de logística derivadas por la contingencia actual, el examen se realizará de manera individual con un profesor a cargo que le acompañará durante toda la prueba. El estudiante será ingresado a un grupo en Microsoft TEAMS donde se le darán las indicaciones para el desarrollo de la prueba. El estudiante debe contar, sin excepción, con todos los dispositivos necesarios (computador, internet banda ancha, cámara, micrófono) para presentar la prueba. En caso tal que no cuente con alguno de estos elementos, no podrá ser elegible para la presentación de la prueba. Asimismo, debe tener activa su cuenta de correo electrónico institucional sin excepción . Toda comunicación de programación, entrega de resultados y activación en la plataforma se realiza con su cuenta de correo institucional. Importante: En caso de presentar alguna situación que interfiera de forma abrupta e inesperada la presentación del examen, se deberá reportar y evidenciar la situación al correo centrodeidiomas@itm.edu.co. Se analizará la información aportada y se tomará la decisión de reprogramar o no el examen."
+      ]
+    },
+    {
+      "name": "academia_qué_se_debe_hacer_para_continuar_con_el",
+      "examples": [
+        "¿Qué se debe hacer para continuar con el programa de Administración Tecnológica\n                                    cuando se ha cursado el programa de Tecnología en Gestión Administrativa?"
+      ],
+      "responses": [
+        "El programa Tecnología en Gestión Administrativa no tiene ciclo complementario, por tanto, quien desea cursar el programa Administración Tecnológica deberá comprar el PIN solicitar Transferencia Interna del programa Tecnológico al programa profesional en el proceso de inscripciones."
+      ]
+    },
+    {
+      "name": "academia_dónde_y_cómo_se_envía_un_caso_al_consejo",
+      "examples": [
+        "¿Dónde y cómo se envía un caso al Consejo de Facultad?"
+      ],
+      "responses": [
+        "Para enviar casos al Consejo de Facultad se debe consultar lo establecido en cada Facultad. El documento debe ser diligenciado, firmado y anexar evidencias si las tiene, radicar en el archivo central o enviarlas al correo de la Facultad; el auxiliar del departamento al cual se encuentra inscrito se encargarán de llevar el caso al Consejo"
+      ]
+    },
+    {
+      "name": "academia_a_quién_envío_las_solicitudes_a_los_comi",
+      "examples": [
+        "¿A quién envío las solicitudes a los Comités Curriculares?"
+      ],
+      "responses": [
+        "Las solicitudes se deben enviar a los auxiliares del programa respectivo. Para los programas adscritos a la Facultad de Ciencias Exactas y Aplicadas, las solicitudes deben enviarse al jefe del Departamento del respectivo comité."
+      ]
+    },
+    {
+      "name": "academia_se_puede_saber_cuáles_asignaturas_se_hom",
+      "examples": [
+        "¿Se puede saber cuáles asignaturas se homologan antes de ser admitido a un programa?"
+      ],
+      "responses": [
+        "El estudio de homologación se realiza cuando el aspirante es admitido al programa, por tanto, debe surtir todos los procesos de admisión antes de solicitar homologaciones. Esto aplica también para estudiantes que deseen realizar Transferencias Internas."
+      ]
+    },
+    {
+      "name": "academia_por_dónde_se_accede_a_la_plataforma_de_e",
+      "examples": [
+        "¿Por dónde se accede a la plataforma de estudiantes? ¿Cuál es el enlace?"
+      ],
+      "responses": [
+        "Se puede acceder: ingresando a la página web www.itm.edu.co , en la parte superior derecha dar clik en yo soy- elegir y luego la opción estudiante; se ingresa el carnet o número de documento, contraseña y periodo académico que se quiere consultar. Solo se puede ingresar si se estuvo matriculado en el periodo consultado y si la clave es correcta. Para ingresar directamente, se puede digitar el siguiente enlace: https://siaweb.itm.edu.co/ClaveAlumnos.asp"
+      ]
+    },
+    {
+      "name": "academia_cuál_es_el_procedimiento_para_que_un_est",
+      "examples": [
+        "¿Cuál es el procedimiento para que un estudiante solicite la cancelación voluntaria\n                                    de una asignatura?"
+      ],
+      "responses": [
+        "El estudiante debe realizar este proceso de acuerdo con los tiempos establecidos por el Calendario Académico. Proceso: El estudiante debe ingresar por la página institucional al perfil de Estudiante: https://siaweb.itm.edu.co/ClaveAlumnos.asp Debe ingresar su número de Carnet o Documento de Identidad en usuario y en la clave la asignada por el mismo estudiante. Debe seleccionar el periodo vigente. El estudiante se debe dirigir a la parte izquierda darle clic a la opción cancelación de asignaturas."
+      ]
+    },
+    {
+      "name": "academia_para_qué_tipo_de_estudiantes_aplica_la_m",
+      "examples": [
+        "¿Para qué tipo de estudiantes aplica la matrícula de egresado no graduado y cuál es\n                                    la normativa sobre ello?"
+      ],
+      "responses": [
+        "El egresado no graduado es aquel que, habiendo aprobado todas las asignaturas del plan de estudios de un programa académico en el ITM, pretende matricularse de conformidad con el Acuerdo 35 del 26 de julio de 2017 y el Acuerdo 11 del 28 de mayo de 2019, para desarrollar o culminar su modalidad de grado que aplica a los estudiantes de pregrado o el Acuerdo 02 del 21 de enero de 2013, para los estudiantes de posgrado."
+      ]
+    },
+    {
+      "name": "academia_cómo_obtengo_información_de_egresado_no",
+      "examples": [
+        "¿Cómo obtengo información de Egresado No Graduado?"
+      ],
+      "responses": [
+        "Se debe consultar la guía para egresados no graduados que se publica cada periodo académico para el proceso de matrícula, diligenciar el formato de Solicitud de Matricula Egresado No Graduado y enviarlo al correo según corresponda al programa académico."
+      ]
+    },
+    {
+      "name": "academia_puedo_ingresar_a_la_ingeniería_financier",
+      "examples": [
+        "¿Puedo ingresar a la Ingeniería Financiera sin ser tecnólogo?"
+      ],
+      "responses": [
+        "La Ingeniería Financiera es el ciclo complementario de la Tecnología en Análisis de Costos y Presupuestos, por lo tanto, primero deberá terminar y graduarse de la Tecnología Análisis de Costos y Presupuestos antes de inscribirse a la Ingeniería."
+      ]
+    },
+    {
+      "name": "academia_es_posible_modificar_el_horario_de_una_a",
+      "examples": [
+        "¿Es posible modificar el horario de una asignatura?"
+      ],
+      "responses": [
+        "Si es posible modificar el horario de una asignatura, siempre y cuando se realice en las fechas definidas en el calendario Académico, y disponibilidad de cupos."
+      ]
+    },
+    {
+      "name": "academia_cuándo_puedo_retirar_una_asignatura_o_cu",
+      "examples": [
+        "¿Cuándo puedo retirar una asignatura? o ¿Cuándo puedo cancelar una asignatura?"
+      ],
+      "responses": [
+        "El estudiante puede retirar una asignatura de la matricula a más tardar la primera semana de clase del semestre en curso o la podrá cancelar después de la segunda semana de clase hasta la fecha máxima establecida por la institución, Una misma asignatura se podrá cancelar hasta por dos (2) veces en toda la duración del programa."
+      ]
+    },
+    {
+      "name": "academia_con_quién_se_puede_realizar_los_ajustes",
+      "examples": [
+        "¿Con quién se puede realizar los ajustes de asignaturas por grupos que fueron\n                                    cerrados?"
+      ],
+      "responses": [
+        "Para realizar los ajustes se debe comunicar con los auxiliares del respectivo programa; sus nombre, correos y teléfonos se pueden consultar en el sitio web de cada facultad. Para realizar los ajustes por cierre de grupos se debe comunicar con el respectivo jefe del programa académico."
+      ]
+    },
+    {
+      "name": "academia_cómo_y_dónde_se_solicita_la_cancelación",
+      "examples": [
+        "¿Cómo y dónde se solicita la cancelación de matrícula o suspensión de semestre?"
+      ],
+      "responses": [
+        "Antes de realizar el proceso de cancelación o suspensión de matrícula académica, el estudiante debe solicitar asesoría a los funcionarios del Programa de permanencia estudiantil del ITM – SIGA, que puede realizarse presencial o email. Para suspender o cancelar semestre, los estudiantes deben diligenciar el formato respectivo y entregarlos en forma presencial o por email a los funcionarios del proyecto SIGA, quienes solicitaran los paz y salvos en la institución y remitirán conjuntamente con las solicitudes a los psicólogos que acompañan este proceso y de acuerdo a las situaciones que se puedan evidenciar en los documentos aportados por los solicitantes (adjuntos al formulario), definirán si procede la cancelación o la suspensión. Luego de verificada la información: si se cumple con las condiciones establecidas en la institución, realizar la gestión pertinente para evitar la deserción del estudiante, y este insiste en su decisión, se envía el formato y sus soportes con las observaciones correspondientes a la respectiva Decanatura, quien deberá expedir la resolución correspondiente, realizar el registro en el SIA y luego notificará al estudiante. Los funcionarios del proyecto SIGA y sus canales de atención, son: Funcionaria: Paula Rodríguez Correo: sigafraternidad@itm.edu.co Contacto: 4600727 opc.9 ext 5536 Ubicación: Sede Fraternidad oficina de Bienestar Sótano. Funcionaria: Claudia Yaneth Arbeláez Monsalve Correo: proyectosigarobledo@itm.edu.co Contacto: 4600727 opc.9 ext 5536 Ubicación: Sede Robledo oficina de Bienestar Bloque E, piso 2"
+      ]
+    },
+    {
+      "name": "academia_qué_diferencia_hay_entre_la_cancelación",
+      "examples": [
+        "¿Qué diferencia hay entre la cancelación de matrícula y la suspensión de semestre?"
+      ],
+      "responses": [
+        "Cancelación: Cancelación de la totalidad de las asignaturas. La cancelación de todas las asignaturas en las que se encuentre matriculado un estudiante equivale a la cancelación de la matrícula. Suspensión: Entiéndase por suspensión de matrícula el acto administrativo que autoriza a un estudiante al retiro de las clases y actividades académicas por un tiempo limitado o por el resto del semestre. El acto administrativo deberá especificar la causa y las circunstancias académicas en que termina el estudiante. La suspensión brinda el derecho al estudiante a conservar su cupo en el mismo semestre y máximo para el siguiente. El pago de los derechos de matrícula es proporcional al tiempo del servicio de clases y el resto se le abonará, si es el caso, para el semestre siguiente. La diferencia entre las dos, radica en las causales por las cuales se puede acceder a una o la otra, por otro lado la cancelación desvincula al estudiante de la institución hasta que el mismo compre el pin nuevamente y se presente como reingreso o transferencia, por lo tanto, cuando una persona cancela debe presentar pruebas para retornar nuevamente a la institución (la cancelación se realiza en los tiempos establecidos en el calendario académico), por otro lado la suspensión se realiza por el semestre en el que el estudiante realiza la solicitud. El estudiante que suspende no debe comprar pin ni realizar pruebas, solo realizar el proceso de matrícula como estudiante antiguo en el semestre inmediatamente siguiente al de la suspensión, con excepción cuando la causa es por prestación del servicio militar, caso en el cual, el estudiante debe presentar constancia de la prestación del servicio y matricularse en el periodo inmediatamente siguiente a la terminación del licenciamiento militar."
+      ]
+    },
+    {
+      "name": "academia_cuál_es_la_diferencia_entre_pruebas_sabe",
+      "examples": [
+        "¿Cuál es la diferencia entre PRUEBAS SABER TyT y PRUEBAS SABER PRO? ¿Quiénes deben\n                                    presentarlas? ¿Cuál es su periodicidad?"
+      ],
+      "responses": [
+        "Pruebas saber Pro: Es un requisito obligatorio para quienes están próximos a culminar los estudios de programas profesionales, se aplican dos veces por año Prueba saber TyT: Es un requisito obligatorio para quienes están próximos a culminar los estudios de programas Tecnológicos, se aplican dos veces al año."
+      ]
+    },
+    {
+      "name": "academia_qué_es_el_nivel_ser_u_y_para_qué_tipo_de",
+      "examples": [
+        "¿Qué es el NIVEL SER U? y para qué tipo de situaciones aplica?"
+      ],
+      "responses": [
+        "El Nivel SER U, es una estrategia que permite a los estudiantes con pérdida del derecho al programa en un periodo académico, continuar con sus estudios en el periodo inmediatamente siguiente, sin perder la calidad de estudiante y condicionado a cursar máximo tres (3) de las asignaturas perdidas en el último periodo matriculado. La no aprobación de las asignaturas matriculadas en el NIVEL SER U, implica la aplicación de las sanciones establecidas en el Reglamento Estudiantil vigente para quienes pierden el derecho a un programa."
+      ]
+    },
+    {
+      "name": "academia_dónde_se_puede_acceder_a_la_normativa_de",
+      "examples": [
+        "¿Dónde se puede acceder a la normativa de NIVEL SER U?"
+      ],
+      "responses": [
+        "Página institucional ww.itm.edu.co En la parte superior se selecciona la opción NOSOTROS Posteriormente se selecciona la opción SECRETARÍA GENERAL Luego se selecciona la opción CONSEJOS Se selecciona la opción Consejo Directivo Se selecciona Acuerdos Se selecciona el año, en este caso 2015 Por último, se descarga el pdf con el Acuerdo 017 de 2015"
+      ]
+    },
+    {
+      "name": "academia_cómo_ingresar_al_enlace_de_las_pruebas_s",
+      "examples": [
+        "¿Cómo ingresar al enlace de las pruebas saber Pro y TyT?"
+      ],
+      "responses": [
+        "Página web ITM itm.edu.co Admisiones Pruebas saber TyT y Pro Link https://www.itm.edu.co/pruebas-saber-pro-y-tyt/"
+      ]
+    },
+    {
+      "name": "academia_quién_maneja_y_administra_en_el_itm_todo",
+      "examples": [
+        "¿Quién maneja y administra en el ITM todo el proceso de información y pre-registro\n                                    de estudiantes a las pruebas SABER?"
+      ],
+      "responses": [
+        "El Departamento de Admisiones y Programación Académica maneja este proceso. Funcionario: Carolina Ramirez Muñoz Correo: carolinaramirez@itm.edu.co Contacto: 4405100 ext 5170"
+      ]
+    },
+    {
+      "name": "academia_cuáles_son_los_requisitos_de_graduación",
+      "examples": [
+        "¿Cuáles son los requisitos de graduación de un estudiante del ITM?"
+      ],
+      "responses": [
+        "Haber culminado y aprobado todas las asignaturas del programa cursado. El trabajo de grado debe estar aprobado y registrado en el Sistema de Información Académica – SIA. De lo contrario, debes comunicarte con tu Jefe de Departamento para que te brinde respuesta al respecto. Los estudiantes de pregrado deben contar con el resultado de las pruebas Saber TyT o Saber Pro, según sea el caso, para adjuntarlo en PDF. Si el Icfes no ha publicado los resultados deberá contar con el certificado de asistencia a la Prueba. Estar a paz y salvo por todo concepto en las siguientes dependencias: Laboratorio Biblioteca Tesorería Laboratorio Biblioteca Tesorería El Departamento de Admisiones es el encargado de solicitar los paz y salvo en las diferentes dependencias."
+      ]
+    },
+    {
+      "name": "academia_en_qué_momento_puede_un_estudiante_hacer",
+      "examples": [
+        "¿En qué momento puede un estudiante hacer su solicitud a grado?"
+      ],
+      "responses": [
+        "Las fechas son estipuladas por el Consejo Académico de la institución, las cuales se pueden consultar junto con información de interés relacionada con los grados en el siguiente enlace. https://www.itm.edu.co/grados/"
+      ]
+    },
+    {
+      "name": "academia_con_quién_y_cómo_se_puede_solicitar_los",
+      "examples": [
+        "¿Con quién y cómo se puede solicitar los micro currículos de asignaturas ya cursadas\n                                    en el ITM? ¿Qué costo tiene?"
+      ],
+      "responses": [
+        "Los Micro currículos se solicitan en la Jefatura del respectivo programa Académico. El proceso en la virtualidad se realiza por medio de una solicitud a través de un correo electrónico con los datos del estudiante, con el nombre y código de las asignaturas de las cuales se desean los contenidos temáticos. El costo de los micro currículos se encuentra relacionado en la resolución de Derechos Pecuniarios que aplique en el momento de solicitarlos; la auxiliar del programa realiza la impresión de los documentos y el estudiante cancela en tesorería; luego, con el recibo solicita en el Departamento de Admisiones y Programación Académica que le coloquen los respectivos sellos."
+      ]
+    },
+    {
+      "name": "academia_cómo_se_puede_solicitar_practicantes",
+      "examples": [
+        "¿Cómo se puede solicitar practicantes?"
+      ],
+      "responses": [
+        "Se envía solicitud a la funcionaria de la Oficina de Prácticas Profesionales: Diana Milena Ruge Marín al siguiente correo dianaruge@itm.edu.co"
+      ]
+    },
+    {
+      "name": "academia_de_qué_se_tratan_las_cátedras_abiertas",
+      "examples": [
+        "¿De qué se tratan las Cátedras abiertas?"
+      ],
+      "responses": [
+        "En el marco del rediseño curricular se creó el núcleo interdisciplinar y de contexto que tiene como objetivos: formar en competencias para la integralidad en un contexto global; para abordar reflexiones en el ámbito social, económico, político, humanístico y de desarrollo sostenible y fomentar el diálogo interdisciplinar Esta Cátedra incluirá las electivas: Cátedra Abierta de Ciudadanía y Paz, y la Cátedra de Deporte y Cultura"
+      ]
+    },
+    {
+      "name": "academia_quiénes_deben_asistir_a_estas_cátedras",
+      "examples": [
+        "¿Quiénes deben asistir a estas cátedras?"
+      ],
+      "responses": [
+        "Estudiantes de últimos semestres de los siguientes programas, que deban cumplir con la asistencia a las Cátedras como requisito de grado. Tecnología en Informática Musical Tecnología en Análisis de Costos y Presupuestos – Virtual Tecnología en Análisis de Costos y Presupuestos – Presencial Tecnología en Control de la Calidad Tecnología en Sistemas de Producción Tecnología en Gestión Administrativa – Virtual Tecnología en Sistemas Electromecánicos Tecnología en Automatización Electrónica Tecnología en Desarrollo de Software Tecnología en Gestión de Redes de Telecomunicaciones Interpretación y Traducción Lengua de Señas Colombiana – español Cine Ingeniería de la Calidad Ciencias Ambientales Química Industrial Tecnología en Gestión Administrativa – Presencial Tecnología en Desarrollo de Aplicaciones para Dispositivos Móviles Modalidad Virtual Contaduría Pública Tecnología en Diseño y Programación de Soluciones de Software como Servicio – SaaS – Virtual"
+      ]
+    },
+    {
+      "name": "academia_cómo_se_cumple_con_el_requisito_de_cated",
+      "examples": [
+        "¿Cómo se cumple con el requisito de Catedra abierta para solicitar grados?"
+      ],
+      "responses": [
+        "Para que cumplas con este requisito de grado deberás, durante TODO el programa académico, cursar 16 horas . Para ello, podrás acceder a la oferta de las Cátedras que se estará publicando a través del correo o redes sociales. El requisito de Cátedra Abierta de Ciudadanía y Paz, y Deporte y Cultura serán aprobados una vez se cumpla con las actividades establecidas y será registrado en la hoja de vida académica del estudiante en el Sistema de Información Académica – SIA."
+      ]
+    },
+    {
+      "name": "academia_cómo_se_puede_quedar_exonerado_de_la_cat",
+      "examples": [
+        "¿Cómo se puede quedar exonerado de la Catedra abierta?"
+      ],
+      "responses": [
+        "El estudiante que haya aprobado la asignatura de DEPORTE FORMATIVO en un programa de pregrado dentro de la Institución NO tendrá que tomar la Cátedra de Deporte y Cultura, la cual será reconocida por dicha asignatura. El estudiante que haya aprobado FUNDAMENTO SOCIAL DEL DERECHO en un programa de pregrado del nivel tecnológico o profesional dentro de la Institución NO tendrá que tomar la Cátedra de Ciudadanía y Paz."
+      ]
+    },
+    {
+      "name": "academia_las_actividades_son_virtuales_o_presenci",
+      "examples": [
+        "¿Las actividades son virtuales o presenciales?"
+      ],
+      "responses": [
+        "Estas cátedras se realizan en ambas modalidades, en la programación se informará lo correspondiente a cada una."
+      ]
+    },
+    {
+      "name": "academia_cómo_registran_la_asistencia",
+      "examples": [
+        "¿Cómo registran la asistencia?"
+      ],
+      "responses": [
+        "En cada una de ellas habrá una forma diferente de registrar la asistencia. Se debe estar atento a las invitaciones y publicación de la programación. Si se cumple con la totalidad de las 16 horas de la Cátedra de Deporte y Cultura, recibirás en el correo electrónico institucional una comunicación que avala la asistencia y cumplimiento de la catedra."
+      ]
+    },
+    {
+      "name": "academia_si_no_puedo_asistir_qué_se_debe_hacer_pa",
+      "examples": [
+        "¿Si no puedo asistir, qué se debe hacer para no perder la oportunidad de cumplir con\n                                    las 16 horas?"
+      ],
+      "responses": [
+        "Durante TODO el programa académico se realizará la oferta de las diferentes cátedras y actividades."
+      ]
+    },
+    {
+      "name": "academia_entregan_constancia_de_asistencia",
+      "examples": [
+        "¿Entregan constancia de asistencia?"
+      ],
+      "responses": [
+        "La Vicerrectoría de Docencia entrega los certificados al estudiante que cumpla con la totalidad de las 16 horas y apruebe el curso a través de la plataforma institucional CVirtual (en el caso de la Cátedra de Ciudadanía y Paz)."
+      ]
+    },
+    {
+      "name": "academia_esta_cátedra_reemplaza_el_trabajo_de_gra",
+      "examples": [
+        "¿Esta Cátedra reemplaza el trabajo de grado?"
+      ],
+      "responses": [
+        "No"
+      ]
+    },
+    {
+      "name": "academia_tiene_algún_costo",
+      "examples": [
+        "¿Tiene algún costo?"
+      ],
+      "responses": [
+        "No, todas las actividades son gratuitas."
+      ]
+    },
+    {
+      "name": "academia_es_para_todos_los_estudiantes",
+      "examples": [
+        "¿Es para todos los estudiantes?"
+      ],
+      "responses": [
+        "Esta oferta está dirigida al estudiante de último semestre de los programas de pregrado del nivel tecnológico o profesional."
+      ]
+    },
+    {
+      "name": "bienestar_que_son_las_becas_tecnologías",
+      "examples": [
+        "Que son las Becas Tecnologías"
+      ],
+      "responses": [
+        "Es una iniciativa de la Alcaldía de Medellín para promover el acceso de los jóvenes a programas tecnológicos únicamente, garantizando una educación inclusiva, equitativa y de calidad."
+      ]
+    },
+    {
+      "name": "bienestar_en_qué_consiste",
+      "examples": [
+        "¿En qué consiste?"
+      ],
+      "responses": [
+        "Es una beca para estudiar una tecnología con alta pertinencia para la inserción laboral, de cara a la Cuarta Revolución Industrial, en una de las 6 instituciones universitarias participantes del programa. El proceso es gratuito y no necesita intermediarios. Se financian los 6 semestres que dura la tecnología. Los aspirantes a las becas: No pagarán ningún costo de matrícula. No firmarán pagaré por adquirir el beneficio. NO deben comprar el PIN de ninguna de las instituciones participantes. Deberán comprometerse a cursar los 6 semestres de la tecnología."
+      ]
+    },
+    {
+      "name": "bienestar_a_quién_está_dirigido",
+      "examples": [
+        "¿A quién está dirigido?"
+      ],
+      "responses": [
+        "A los habitantes de las 16 comunas y los 5 corregimientos de Medellín, que tengan hasta 30 años de edad al momento de la inscripción."
+      ]
+    },
+    {
+      "name": "bienestar_qué_es_el_fondo_sapiencia_con_recursos_d",
+      "examples": [
+        "¿Qué es el Fondo sapiencia con recursos de presupuesto participativo?"
+      ],
+      "responses": [
+        "Es un fondo para Apoyar el acceso y la permanencia en la educación superior de los habitantes de Medellín, con recursos de Presupuesto Participativo, a través de créditos que se condonan cumpliendo con servicio social y obteniendo el título profesional, para la financiación parcial o total de los estudios de pregrado en los niveles de técnica profesional, tecnología y universitarios en instituciones de educación superior registrados en el Sistema Nacional de Información (SNIES) del Ministerio de Educación. No es una beca Requisitos: Haber nacido o estar residenciado mínimo los últimos cinco (5) años en el Municipio de Medellín y tres (3) años en la Comuna o Corregimiento por la cual aplica. En el caso de personas vinculadas a programas de desplazamiento, víctimas del conflicto armado, poblaciones afrocolombianas o indígenas, el tiempo exigible de residencia en el Municipio de Medellín será de tres (3) años y dos (2) años en la comuna o corregimiento. Poseer título de bachiller y haber presentado las pruebas de Estado Saber 11 o la que haga sus veces. Que la comuna o corregimiento hubiese priorizado recursos para la respectiva convocatoria. Estar estudiando, admitido o en proceso de admisión en una IES. No poseer título de técnico profesional, tecnólogo, licenciado o profesional universitario, se exceptúa el caso de los técnicos profesionales y tecnólogos que estén admitidos para complementar el ciclo universitario en la misma área. Fuente: https://sapiencia.gov.co/fondos-sapiencia/presupuesto-participativo/"
+      ]
+    },
+    {
+      "name": "bienestar_qué_es_el_pp_presupuesto_participativo",
+      "examples": [
+        "¿Qué es el PP (Presupuesto Participativo)?"
+      ],
+      "responses": [
+        "Es una Iniciativa de financiación al acceso de la educación superior con recursos que las comunas y corregimientos de Medellín priorizan a través del programa de Planeación. Todos los estudiantes que viven en las comunas y corregimientos que tienen convenio directo con el ITM para Presupuesto Participativo, pueden acceder a estos recursos, siempre y cuando cumplan con los requisitos exigidos, presenten la documentación respectiva y existan los cupos disponibles."
+      ]
+    },
+    {
+      "name": "bienestar_requisitos_para_solicitar_pp",
+      "examples": [
+        "Requisitos para solicitar PP"
+      ],
+      "responses": [
+        "Emisión de certificado de domicilio por parte de algunas de las siguientes entidades: Junta Administradora Local (JAL) Junta de Acción Comunal (JAC) Inspección de Policía competente Ficha del SISBEN actualizada. Debe de ser de Medellín. Última cuenta de servicios públicos. Fotocopia del documento de identidad."
+      ]
+    },
+    {
+      "name": "bienestar_cómo_puede_cumplir_un_estudiante_las_hor",
+      "examples": [
+        "¿Cómo puede cumplir un estudiante las horas de labor social del PP?"
+      ],
+      "responses": [
+        "Debe hablar en primer lugar con la junta de acción comunal de la comuna a la que pertenece y ponerse de acuerdo con ella, por medio de nuestra página web encuentra un listado donde podría realizar las labores sociales en la parte (servicio social) en el siguiente link https://www.itm.edu.co/bienestar/presupuesto-participativo/ o puede realizarlas en la Facultad a la que pertenece."
+      ]
+    },
+    {
+      "name": "bienestar_cuál_es_el_funcionario_a_que_se_puede_ac",
+      "examples": [
+        "¿Cuál es el funcionario a que se puede acudir con dudas sobre el PP. Nombre, correo\n                                    electrónico y extensión telefónica?"
+      ],
+      "responses": [
+        "Profesional Encargado: Edgar Hidalgo. Correos: presupuestoparticipativo@itm.edu.co ; edgarhidalgo@itm.edu.co Contacto: WhatsApp: +57 3137714961: 440 51 00 Opc. 9 Ext. 3217 – 5162 460 07 27 Opc. 9 Ext. 5626"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "intents": [
+    {
+      "name": "acceso_lms",
+      "examples": [
+        "No puedo entrar a Moodle",
+        "Olvidé mi contraseña del aula virtual",
+        "Me sale error en Blackboard"
+      ],
+      "responses": [
+        "Verifica que tu usuario y contraseña sean correctos. Si no recuerdas la clave, usa la opción '¿Olvidaste tu contraseña?' en el portal.",
+        "Si el problema persiste, intenta limpiar la caché del navegador o usa una ventana en modo incógnito."
+      ]
+    },
+    {
+      "name": "wifi_conexion",
+      "examples": [
+        "No me conecta el wifi",
+        "Tengo problemas con la red del campus",
+        "La red universitaria no funciona"
+      ],
+      "responses": [
+        "Asegúrate de estar dentro del rango de cobertura y de usar tus credenciales institucionales.",
+        "Si la red no aparece, prueba olvidar la conexión y volver a conectarte desde cero."
+      ]
+    },
+    {
+      "name": "correo_institucional",
+      "examples": [
+        "No puedo entrar a mi correo institucional",
+        "Olvidé la contraseña del correo",
+        "No me carga Outlook"
+      ],
+      "responses": [
+        "Puedes acceder a tu correo desde https://outlook.office.com.",
+        "Si olvidaste tu contraseña, restablécela desde el portal de cuentas o contacta soporte técnico."
+      ]
+    }
+  ]
+}
