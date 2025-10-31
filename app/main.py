@@ -10,14 +10,6 @@ def root():
 @app.post("/predict/")
 def get_intent(user_input: dict):
     text = user_input.get("message", "")
-
-    if(text == "Hola"):
-        return {
-            "intent": "saludo",
-            "confidence": 1.0,
-            "respuesta": "¡Hola! Bienvenido al chatbot del ITM ¿En qué puedo ayudarte hoy?"
-        }
-
     intent, confidence, respuesta, sugerencias = predict_intent(text)
 
     if confidence < 0.5:
