@@ -1,7 +1,17 @@
 from fastapi import FastAPI
 from app.nlu.train import predict_intent
+from fastapi.middleware.cors import CORSMiddleware
+
 
 app = FastAPI(title="Chatbot Universitario - Backend")
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 #test
 @app.get("/")
