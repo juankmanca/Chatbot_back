@@ -3,6 +3,7 @@ from app.nlu.train import predict_intent
 
 app = FastAPI(title="Chatbot Universitario - Backend")
 
+#test
 @app.get("/")
 def root():
     return {"message": "API activa"}
