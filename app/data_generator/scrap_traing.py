@@ -8,6 +8,7 @@ from bs4 import BeautifulSoup
 from sentence_transformers import SentenceTransformer, util
 import json, re, random
 from pathlib import Path
+import unicodedata
 
 INPUT = "/content/page.html"
 OUTPUT = "/content/itm_faq.json"
@@ -18,6 +19,19 @@ def slugify(s, maxlen=60):
     s = re.sub(r"\s+", "_", s)
     return s[:maxlen].strip("_")
 
+def normalize_text(text: str) -> str:
+    # Quitar tildes y diacríticos
+    text = unicodedata.normalize("NFKD", text)
+    text = "".join([c for c in text if not unicodedata.combining(c)])
+    # Convertir a minúsculas
+    text = text.lower()
+    # Eliminar signos de puntuación y caracteres no alfanuméricos
+    text = re.sub(r"[^a-z0-9áéíóúñü\s]", " ", text)
+    # Reemplazar múltiples espacios por uno
+    text = re.sub(r"\s+", " ", text)
+    return text.strip()
+
+# Esta función quita los saltos de lineas
 def clean_text(text: str) -> str:
     text = re.sub(r'\s*\n\s*', ' ', text)
     text = re.sub(r'\s{2,}', ' ', text)
@@ -68,11 +82,17 @@ for panel in soup.select(".vc_tta-panel"):
             continue
         seen_questions.add(question)
 
-        answer = extract_text_from_tag(a_el) or a_el.get_text(" ", strip=True)
+         # Limpieza y normalización
+        question = clean_text(question)
+        question_norm = normalize_text(question)
 
-        intent_name = f"{slugify(panel_id,30)}_{slugify(question,40)}"
-        examples = [question]
-        responses = [clean_text(answer)]
+        answer = extract_text_from_tag(a_el) or a_el.get_text(" ", strip=True)
+        answer = clean_text(answer)
+        answer_norm = normalize_text(answer)
+
+        intent_name = f"{slugify(panel_id,30)}_{slugify(question_norm,40)}"
+        examples = [question_norm]
+        responses = [answer_norm]
 
         data["intents"].append({
             "name": intent_name,

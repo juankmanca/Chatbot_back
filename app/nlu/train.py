@@ -4,12 +4,13 @@ from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.naive_bayes import MultinomialNB
 
 def load_data():
-    with open("app/data/itm_faq_V2.json", encoding="utf-8") as f:
+    with open("app/data/itm_faq_V3.json", encoding="utf-8") as f:
         return json.load(f)
 
 data = load_data()
 vectorizer = CountVectorizer()
-clf = MultinomialNB()
+# Inicializa el clasificador con un valor de suavizado más bajo
+clf = MultinomialNB(alpha=0.1) # Por defecto es 1.0. Prueba con 0.1 o 0.01
 
 texts, labels = [], []
 for intent in data["intents"]:
@@ -28,7 +29,7 @@ def predict_intent(text):
     confidence = proba[intent_idx]
 
     sugerencias = []
-    if confidence < 0.5:
+    if confidence < 0.4:
         # Obtiene los 3 intents más probables
         top_indices = proba.argsort()[::-1][:3]
         top_intents = [clf.classes_[i] for i in top_indices]
@@ -45,7 +46,7 @@ def predict_intent(text):
     respuesta = "Lo siento, no entiendo bien tu consulta. ¿Podrías reformularla?"
     for i in data["intents"]:
         if i["name"] == intent:
-            respuesta = random.choice(i["responses"])
+            respuesta = i["responses"]
             break
 
     return intent, round(confidence, 3), respuesta, sugerencias
